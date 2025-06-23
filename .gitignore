@@ -2,5 +2,6 @@
 node_modules
 
 # 개발환경 설정파일
+.vscode
 .editorconfig
 .prettierrc.json

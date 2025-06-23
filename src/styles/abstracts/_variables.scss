@@ -1,0 +1,41 @@
+// preset
+$font-size: 14px; // 1rem: 14px로 설정
+$max-vw: 1920px; // 최대 가로크기는 1920px로 설정
+$table-min-width: 1130px; // 표 최소 가로크기는 1130px로 설정
+
+// background color
+$bg-white: #ffffff;
+$bg-header: #d9d9d9;
+$bg-gnb: #f1f1f1;
+$bg-gnb-selected: #d9d9d9;
+$bg-text-gray: #e4e4e4;
+$bg-text-light-gray: rgba(230, 230, 230, 0.3);
+$bg-tr-hover: #f1f1f1;
+$bg-tr-selected: #ff9090;
+$bg-btn-white: #ffffff;
+$bg-btn-white-hover: #f8f9fa;
+$bg-btn-dark-black: #121212;
+$bg-btn-black: #333333;
+$bg-btn-gray: #d9d9d9;
+$bg-btn-red: #dc3e3e;
+$bg-btn-green: #1bc47d;
+$bg-img-gray: #e9ecef;
+$bg-img-pink: #f46262;
+$bg-img-light-pink: #fcacac;
+$bg-modal-outside: rgba(0, 0, 0, 0.4);
+$bg-alert-outside: rgba(0, 0, 0, 0.2);
+
+// border
+$bd-black: #000000;
+$bd-light-gray: #e9ecef;
+$bd-gray: #bebebe;
+$bd-dark-gray: #868686;
+$bd-input-gray: #dddddd;
+
+// font color
+$font-white: #ffffff;
+$font-gray: #646464;
+$font-light-gray: #868e96;
+$font-light-gray-hover: #212529;
+$font-red: #ff0000;
+$font-green: #1bc47d;
