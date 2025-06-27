@@ -10,7 +10,7 @@ type FormInputProps = {
 
 const FormInput = ({type = "text", className = "", name, value, onChange, placeholder, children}: FormInputProps) => {
   return (
-    <div className={`input_box ${className}`}>
+    <div className={`form_input ${className}`}>
       <input type={type} name={name} value={value} onChange={onChange} placeholder={placeholder} spellCheck="false" />
       {children}
     </div>

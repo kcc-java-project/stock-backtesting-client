@@ -4,9 +4,9 @@ type InputButtonProps = {
   onClickHandler?: React.MouseEventHandler<HTMLButtonElement>;
 };
 
-const InputButton = ({className = "", value, onClickHandler}: InputButtonProps) => {
+const FormButton = ({className = "", value, onClickHandler}: InputButtonProps) => {
   return (
-    <div className={`input_button ${className}`}>
+    <div className={`form_button ${className}`}>
       <button onClick={onClickHandler} >
         {value}
       </button>
@@ -14,4 +14,4 @@ const InputButton = ({className = "", value, onClickHandler}: InputButtonProps) 
   );
 };
 
-export default InputButton;
+export default FormButton;

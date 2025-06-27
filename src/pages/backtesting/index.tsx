@@ -1,5 +1,5 @@
 import { useState } from "react";
-import InputButton from "../../components/form/form_button";
+import FormButton from "../../components/form/form_button";
 import FormInput from "../../components/form/form_input";
 import BacktestingLayout from "../../layouts/backtesting";
 import MainLayout from "../../layouts/common/main";
@@ -17,7 +17,7 @@ const BacktestingPage = () => {
       <MainLayout className="backtesting">
         <BacktestingLayout />
         <FormInput name="test" value={test} onChange={changeTest} placeholder="이메일 입력" />
-        <InputButton value="계속" />
+        <FormButton value="계속" />
       </MainLayout>
     </>
   );
