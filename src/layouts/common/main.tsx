@@ -1,11 +1,11 @@
 type MainLayoutProps = {
+  className?: string;
   children: React.ReactNode;
-  classname: string;
 };
 
-const MainLayout = ({children, classname}: MainLayoutProps) => {
+const MainLayout = ({className = "", children}: MainLayoutProps) => {
   return (
-    <main className={classname}>
+    <main className={className}>
       {children}
     </main>
   );

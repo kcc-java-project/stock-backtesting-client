@@ -4,7 +4,7 @@
   display: flex;
   width: 260px;
   flex-direction: column;
-  background-color: #{variables.$bg-gray};
+  background-color: #{variables.$background-gray};
 
   .header {
     display: flex;
@@ -39,7 +39,7 @@
 
     div {
       height: 36px;
-      color: #{variables.$ft-gray-3};
+      color: #{variables.$gray-500};
       margin: 0 6px;
       padding: 6px 10px;
     }
