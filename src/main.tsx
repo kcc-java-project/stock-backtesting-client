@@ -1,10 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./styles/index.css";
-import App from "./layouts/App.tsx";
+import SignupPage from "./pages/signup";
+
+import "./styles/global.scss";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <SignupPage />
   </StrictMode>
 );

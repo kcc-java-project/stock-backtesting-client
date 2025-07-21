@@ -31,6 +31,7 @@ export default tsEslint.config(
       "@typescript-eslint/no-unused-vars": "warn",
       "@stylistic/indent": ["error", 2],
       "@stylistic/semi": "error",
+      "semi-spacing": "error",
       "@stylistic/quotes": [
         "error",
         "double",
@@ -59,6 +60,14 @@ export default tsEslint.config(
           "max": 1
         }
       ],
+      "@stylistic/no-multi-spaces": "error",
+      "@stylistic/space-before-blocks": "error",
+      "@stylistic/space-in-parens": ["error", "never"],
+      "@stylistic/space-infix-ops": "error",
+      "@stylistic/spaced-comment": ["error", "always"],
+      "space-before-function-paren": "error",
+      "space-unary-ops": "error",
+      "keyword-spacing": "error",
       "import/order": [
         "error",
         {

@@ -1,0 +1,23 @@
+@use "../../abstracts/variables";
+
+.form_input {
+  display: flex;
+  width: 340px;
+  height: 50px;
+  outline: none;
+  border: 1px solid #{variables.$border-medium};
+  border-radius: 25px;
+  padding: 0 22px;
+
+  input {
+    flex-grow: 1;
+    outline: none;
+    border: none;
+    line-height: 1.5rem;
+    padding: 0 6px;
+  }
+
+  &:focus-within {
+    border-color: #{variables.$border-blue};
+  }
+}

@@ -1,0 +1,51 @@
+@use "../abstracts/variables";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Noto Sans KR";
+  color: #{variables.$black-1};
+}
+
+html {
+  font-size: #{variables.$font-size};
+}
+
+body,
+div,
+span,
+p,
+a,
+ol,
+ul,
+li,
+button,
+input,
+textarea,
+select,
+option {
+  font-size: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
